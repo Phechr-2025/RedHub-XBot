@@ -7,7 +7,7 @@
 รันคำสั่งนี้ใน VPS ได้เลย:
 
 ```bash
-git clone https://github.com/Phechr2554/Discord-shop3x.git && cd Discord-shop3x && chmod +x install_vps.sh && sudo ./install_vps.sh
+git clone https://github.com/Phechr-2025/RedHub-XBot.git && cd Discord-shop3x && chmod +x install_vps.sh && sudo ./install_vps.sh
 ```
 
 สคริปต์จะ:
