@@ -2,7 +2,7 @@
 set -euo pipefail
 APP_NAME="xbot"
 DEFAULT_SERVICE_NAME="xbot"
-REPO_URL="https://github.com/Phechr2554/Discord-shop3x.git"
+REPO_URL="https://github.com/Phechr-2025/RedHub-XBot.git"
 SOURCE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 info() { printf '\033[1;32m[INFO]\033[0m %s\n' "$*"; }
 warn() { printf '\033[1;33m[WARN]\033[0m %s\n' "$*"; }
