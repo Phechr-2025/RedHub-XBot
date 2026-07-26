@@ -20,7 +20,7 @@ ENV_FILE = Path(os.getenv("ENV_FILE", str(APP_DIR / ".env")))
 DEFAULT_PANEL_PATH = "/panel"
 
 # จุดเดียวสำหรับใส่รูปโลโก้ด้านบนของแผงเว็บ
-BRAND_IMAGE_URL = os.getenv("WEB_BRAND_IMAGE_URL", "").strip()
+BRAND_IMAGE_URL = os.getenv("WEB_BRAND_IMAGE_URL", "https://img1.pic.in.th/images/file_000000005df48209b46eba3b27de96e8.png").strip()
 BRAND_IMAGE_ALT = os.getenv("WEB_BRAND_IMAGE_ALT", "RedHub-xbot").strip() or "RedHub-xbot"
 
 KEY_FIELDS: List[Tuple[str, str, str, str]] = [
