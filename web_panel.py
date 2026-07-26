@@ -21,7 +21,7 @@ ENV_FILE = Path(os.getenv("ENV_FILE", str(APP_DIR / ".env")))
 DEFAULT_PANEL_PATH = "/panel"
 
 # เปลี่ยนรูปตรงนี้จุดเดียว หรือจะตั้งผ่าน WEB_PANEL_IMAGE_URL ใน .env ก็ได้
-DEFAULT_PANEL_IMAGE_URL = os.getenv("WEB_PANEL_IMAGE_URL", "").strip()
+DEFAULT_PANEL_IMAGE_URL = os.getenv("WEB_PANEL_IMAGE_URL", "https://img1.pic.in.th/images/file_000000005df48209b46eba3b27de96e8.png").strip()
 
 KEY_FIELDS: List[Tuple[str, str, str, str]] = [
     ("DISCORD_TOKEN", "Discord token", "password", "Bot token สำหรับ Discord"),
